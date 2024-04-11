@@ -1,0 +1,13 @@
+name = "Statiker"
+uuid = "c4895f01-6e01-4f42-be11-1111951519e8"
+authors = ["Oliver Lebtien Mohr"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
